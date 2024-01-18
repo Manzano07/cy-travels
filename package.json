@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "cypress": "^13.6.3"
+  },
+  "scripts": {
+    "start": "yarn run cypress open", 
+    "test": "yarn cypress run"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1"
+  }
+}
